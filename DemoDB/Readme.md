@@ -1,3 +1,27 @@
+# Install PostgreSQL 
+#### Manjaro
+```
+sudo pacman -S postgresql postgis
+```
+```
+sudo su postgres -l
+```
+```
+sudo -u postgres -i
+```
+```
+initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data/'
+```
+```exit```
+```
+sudo systemctl status postgresql
+```
+```
+sudo systemctl start postgresql
+```
+```
+q 
+
 # Create PostgreSQl_DB
 
 _____
