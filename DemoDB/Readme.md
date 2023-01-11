@@ -19,8 +19,8 @@ sudo systemctl status postgresql
 ```
 sudo systemctl start postgresql
 ```
-```
-q 
+
+
 
 # Create PostgreSQl_DB
 
