@@ -57,3 +57,9 @@ ORDER BY count(*);
 SELECT aircraft_code, fare_conditions, count(*) FROM seats
 GROUP BY aircraft_code, fare_conditions
 ORDER BY aircraft_code, fare_conditions;
+
+SELECT 0.1::real * 10 = 1.0::real;
+
+SELECT current_date;
+
+SELECT current_time;

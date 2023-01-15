@@ -22,7 +22,7 @@ sudo systemctl start postgresql
 
 
 
-# Create PostgreSQl_DB
+# Create Table
 
 _____
 
