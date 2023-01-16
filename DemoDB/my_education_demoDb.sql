@@ -62,4 +62,28 @@ SELECT 0.1::real * 10 = 1.0::real;
 
 SELECT current_date;
 
+select 'sep 12, 2022'::date;
+
+SELECT to_char(current_date, 'dd-mm-yyyy');
+
 SELECT current_time;
+
+SELECT '02:22:30'::time;
+
+SELECT 'pm 11:09:34'::time;
+
+SELECT timestamp with time zone '2016-09-22 22:45:32';
+
+SELECT timestamptz '2000-08-01 03:04:44';
+
+SELECT current_timestamp;
+
+SELECT '1 year 2 months ago'::interval;
+
+SELECT 'P0001-02-03T04:05:06'::interval;
+
+SELECT ('2016-06-16'::timestamp - '2016-01-01'::timestamp)::interval;
+
+SELECT (date_trunc('hour', current_timestamp));
+
+SELECT extract('mon' FROM timestamp '1999-11-27 12:34.123456');
