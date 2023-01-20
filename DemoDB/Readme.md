@@ -215,3 +215,15 @@ SELECT extract('mon' FROM timestamp '1999-11-27 12:34.123456');
 ````
 ### Boolean type
 __________
+#### Condition "true":
+        TRUE, 't', 'true', 'y', 'yes', 'on', '1';
+#### Condition "false": 
+        FALSE, 'f', 'false', 'n', 'no', 'off' '0';
+#### Condition NULL:
+        NULL;
+
+### ARRAY
+__________
+
+### JSON and JSONb
+________
